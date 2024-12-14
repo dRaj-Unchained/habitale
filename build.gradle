@@ -1,0 +1,13 @@
+plugins {
+    id 'java' // Adds Java support (required for build scans)
+    id 'com.gradle.build-scan' version '3.6.4'
+}
+
+buildScan {
+    termsOfServiceUrl = 'https://gradle.com/terms-of-service'
+    termsOfServiceAgree = 'yes'
+    publishAlways()
+
+    // Add a custom tag
+    tag 'frontend-engineer'
+}
