@@ -42,7 +42,7 @@ A modern, responsive interior design website built with React.js, React-Bootstra
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/avery-interior.git
+   git clone https://github.com/snishan/interior-contracting-web-site.git
    ```
 
 2. **Install dependencies:**
@@ -97,3 +97,6 @@ The app is fully responsive and works great on:
 - **AOS** for the scroll-based animation library.
 - **EmailJS** for email functionality.
 - **React-Scripts** for project setup and build management.
+
+## LIVE LINK
+https://interior-contracting-web-site.vercel.app/
