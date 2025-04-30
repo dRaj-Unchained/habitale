@@ -168,12 +168,12 @@ export default class header extends React.Component {
                             <span className={this.state.about}></span>
                             <Link className={this.state.aboutLink} to="about" offset={-100} spy={true} smooth={true} onClick={this.handleSetActive.bind(this, "about")} onSetActive={this.handleSetActive.bind(this)}>ABOUT US</Link>
                             <span className={this.state.project}></span>
-                            {/* <Link className={this.state.projectLink} to="project" offset={-100} spy={true} smooth={true} onClick={this.handleSetActive.bind(this, "project")} onSetActive={this.handleSetActive.bind(this)}>LATEST PROJECTS</Link>
+                            <Link className={this.state.projectLink} to="services" offset={-100} spy={true} smooth={true} onClick={this.handleSetActive.bind(this, "project")} onSetActive={this.handleSetActive.bind(this)}>SERVICES</Link>
                             <span className={this.state.service}></span>
-                            <Link className={this.state.serviceLink} to="service" offset={-50} spy={true} smooth={true} onClick={this.handleSetActive.bind(this, "service")} onSetActive={this.handleSetActive.bind(this)}>OUR SERVICES</Link>
+                            <Link className={this.state.serviceLink} to="portfolio" offset={-50} spy={true} smooth={true} onClick={this.handleSetActive.bind(this, "service")} onSetActive={this.handleSetActive.bind(this)}>PORTFOLIO</Link>
                             <span className={this.state.gallery}></span>
-                            <Link className={this.state.galleryLink} to="gallery" offset={-50} spy={true} smooth={true} onClick={this.handleSetActive.bind(this, "gallery")} onSetActive={this.handleSetActive.bind(this)}>GALLERY</Link>
-                            <span className={this.state.contact}></span> */}
+                            <Link className={this.state.galleryLink} to="testimonials" offset={-50} spy={true} smooth={true} onClick={this.handleSetActive.bind(this, "gallery")} onSetActive={this.handleSetActive.bind(this)}>TESTIMONIALS</Link>
+                            <span className={this.state.contact}></span>
                             <Link className={this.state.contactLink} to="contact" offset={-50} spy={true} smooth={true} onClick={this.handleSetActive.bind(this, "contact")} onSetActive={this.handleSetActive.bind(this)}>CONTACT US</Link>
 
                         </nav>
@@ -191,9 +191,9 @@ export default class header extends React.Component {
                         <div id="myLinks" onClick={this.show.bind(this)}>
                             <a href="#home">HOME</a>
                             <a href="#about">ABOUT US</a>
-                            <a href="#project">LATEST PROJECTS</a>
-                            <a href="#service">OUR SERVICES</a>
-                            <a href="#gallery">GALLERY</a>
+                            <a href="#services">SERVICES</a>
+                            <a href="#portfolio">PORTFOLIO</a>
+                            <a href="#testimonials">TESTIMONIALS</a>
                             <a href="#contact">CONTACT US</a>
                         </div>
                     </div>
