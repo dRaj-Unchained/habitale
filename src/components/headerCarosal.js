@@ -18,12 +18,12 @@ export default class DemoCarousel extends React.Component {
                         <img src={hero} className="img-height" alt="top-carousal" />
                         <div className="row">
                             <div className="col-sm-12">
-                                <p className="carousel-text line-one carousel-text-tab">CREATE SPACES</p>
+                                <p className="carousel-text line-one carousel-text-tab">TRANSFORM YOUR</p>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-sm-12">
-                                <p className="carousel-text line-two carousel-text-tab">FOR BETTER<span className="carousel-text ml-3 yellow-colour carousel-text-tab">LIVING</span></p>
+                                <p className="carousel-text line-two carousel-text-tab">HOME INTO <span className="carousel-text ml-3 yellow-colour carousel-text-tab">LIVING</span></p>
                             </div>
                         </div>
                         <div className="row">
