@@ -23,21 +23,13 @@ export default class AboutUs extends React.Component {
                             </div>
                         </div>
                         <div className="row">
-                            <p data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" className="about-sub-topic add-margin-about-sub">OUR <span className="yellow-colour">ETHOS</span></p>
+                            <p data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" className="about-sub-topic add-margin-about-sub">WORDS THAT <span className="yellow-colour">INSPIRE US</span></p>
                         </div>
                         <div className="row">
 
                             <div className="col-sm-8 col-md-12">
                                 <p data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" className="about-text ">
-                                Our philosophy centers on achieving outstanding design 
-                                and seamless execution. We operate across various 
-                                disciplines, including architecture, master planning, 
-                                interior design, and graphic design. Our approach focuses 
-                                on deeply understanding our clients' cultural, functional, 
-                                operational, and business requirements. By leveraging our 
-                                expertise, innovation, and industry insights, we create 
-                                solutions that are both practical and impactful. 
-                                We believe this is the foundation of truly exceptional design.
+                                Nothing matters more to us than the satisfaction and trust of our clients. Our testimonials reflect the meaningful relationships we've built through thoughtful design, clear communication, and quality execution. Each kind word is a reminder of the impact our work has on people’s lives and the spaces they cherish. Whether it’s a heartfelt note of thanks or a glowing review of our professionalism, these voices inspire us to keep doing our best.
                                 </p>
                             </div>
 

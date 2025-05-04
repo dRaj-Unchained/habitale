@@ -23,21 +23,20 @@ export default class AboutUs extends React.Component {
                             </div>
                         </div>
                         <div className="row">
-                            <p data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" className="about-sub-topic add-margin-about-sub">OUR <span className="yellow-colour">ETHOS</span></p>
+                            <p data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" className="about-sub-topic add-margin-about-sub">OUR <span className="yellow-colour">STORY</span></p>
                         </div>
                         <div className="row">
 
                             <div className="col-sm-8 col-md-12">
                                 <p data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" className="about-text ">
-                                Our philosophy centers on achieving outstanding design 
-                                and seamless execution. We operate across various 
-                                disciplines, including architecture, master planning, 
-                                interior design, and graphic design. Our approach focuses 
-                                on deeply understanding our clients' cultural, functional, 
-                                operational, and business requirements. By leveraging our 
-                                expertise, innovation, and industry insights, we create 
-                                solutions that are both practical and impactful. 
-                                We believe this is the foundation of truly exceptional design.
+                                At Habitale Interiors, we believe that a home is more than just 
+                                a place—it's a reflection of who you are. With a passion for design 
+                                and a keen eye for detail, we specialize in creating beautiful and 
+                                functional spaces that inspire. Whether you're looking to renovate 
+                                a single room or redesign your entire home, our expert team of designers 
+                                works closely with you to bring your vision to life. We combine innovative 
+                                design concepts with high-quality materials to create timeless interiors 
+                                that reflect your unique taste and lifestyle
                                 </p>
                             </div>
 
