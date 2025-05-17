@@ -113,8 +113,8 @@ export default class Contact extends React.Component {
                                             <div className="row">
                                                 <div className="col-sm-12">
                                                     <p className="contact-details-text">
-                                                        Sunrise Tower, 45 Al Nahda Street 4, Business Bay, Middle Finland - Finland.
-                                                     <strong>-sales@averyinterior.com</strong></p>
+                                                        Fresco 701, SJR Fiesta Homes, Electronic City, Phase - II, Bangalore - 560100.
+                                                     <strong>-care@habitale.in</strong></p>
                                                 </div>
                                             </div>
                                             <div className="row">
@@ -125,7 +125,7 @@ export default class Contact extends React.Component {
                                             <div className="row">
                                                 <div className="col-sm-12">
                                                     <p className="contact-details-text">
-                                                        Saturday - Thursday: By Appointment Friday: Closed
+                                                        All Days : 9AM - 10PM Available ! Cheers !!
                                                     </p>
                                                 </div>
                                             </div>

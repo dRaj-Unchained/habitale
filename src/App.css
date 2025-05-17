@@ -4,12 +4,12 @@ body{
 /* Large devices (desktops, 992px and up) */
 
   .header-logo{
-    max-width: 72px;
-    margin-top: 15px;
+    max-width: 100px;
+    margin-top: 5px;
   }
   .header{
     background-color: #ffff;
-    height: 105px;
+    height: 100px;
     width: auto;
   }
   .header-scroll{
@@ -55,7 +55,7 @@ body{
 .home-underscore{
     position: absolute;
     height: 2px;
-    bottom: 24px;
+    bottom: 40px;
     background-color: #ffac07;
     visibility: visible;
     width: 50px;
@@ -63,7 +63,7 @@ body{
 .about-underscore{
   position: absolute;
   height: 2px;
-  bottom: 24px;
+  bottom: 40px;
   background-color: #ffac07;
   visibility: visible;
   width: 85px;
@@ -71,7 +71,7 @@ body{
 .project-underscore{
   position: absolute;
   height: 2px;
-  bottom: 24px;
+  bottom: 40px;
   background-color: #ffac07;
   visibility: visible;
   width: 155px;
@@ -79,7 +79,7 @@ body{
 .service-underscore{
   position: absolute;
   height: 2px;
-  bottom: 24px;
+  bottom: 40px;
   background-color: #ffac07;
   visibility: visible;
   width: 128px;
@@ -95,7 +95,7 @@ body{
 .contact-underscore{
   position: absolute;
   height: 2px;
-  bottom: 24px;
+  bottom: 40px;
   background-color: #ffac07;
   visibility: visible;
   width: 108px;
@@ -165,7 +165,7 @@ body{
     transform-origin: left top;
     transform: scale(1, 1);
 }  */
- .carousel-text{
+ .carousel-text{ /* Change of style of first photo */
   font-family: Montserrat;
   font-size: 48px;
   font-weight: bold;
@@ -174,13 +174,13 @@ body{
   line-height: 1;
   letter-spacing: normal;
   text-align: left;
-  color: #ffff;
+  color: #cd6626;
  }
  .carousel .thumbs{
    max-width: 400px;
    margin-left: 12px;
  }
- .line-one{
+ .line-one{ /* Line one modification, hight and inentation */ 
   bottom: 255px;
   left: 125px;
   position: absolute;
@@ -190,7 +190,7 @@ body{
   left: 125px;
   position: absolute;
 }
-.yellow-colour{
+.yellow-colour{/* last word color change */
   color: #ffac07 !important;
 }
 .carousel-sub-text{
@@ -202,7 +202,7 @@ body{
   line-height: normal;
   letter-spacing: 5.4px;
   text-align: left;
-  color: #ffffff;
+  color: #1fffff; /* smaller font color change */
   bottom: 140px;
   left: 130px;
   position: absolute;
@@ -247,7 +247,7 @@ body{
   color: #526e88;
 }
 .slash{
-  width: 25px;
+  width: 25px; /* dash styling */
   height: 2px;
   flex-grow: 0;
   margin: 7px 0px 0px 0px;
@@ -255,7 +255,7 @@ body{
 }
 .about-sub-topic{
   font-family: Montserrat;
-  font-size: 36px;
+  font-size: 36px; /* OUR STORY*/
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -267,7 +267,7 @@ body{
 }
 .about-text{
   flex-grow: 0;
-  margin: 40px 0 0;
+  margin: 20px 0 0; /* text position */
   font-family: Montserrat;
   font-size: 18px;
   font-weight: normal;
@@ -284,7 +284,7 @@ body{
   display: block;
   float: none;
 }
-.mission-all-tab{
+.mission-all-tab{ /* OUR MISSION, OUR VISION, OUR CAPACITY part allignment */
   width: auto;
   height: auto;
   margin: 96px 0 40px;
@@ -298,7 +298,7 @@ body{
 }
 .mission-text{
   font-family: Montserrat;
-  font-size: 15px;
+  font-size: 15px; /* OUR MISSION, OUR VISION, OUR CAPACITY font change */
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -372,7 +372,7 @@ body{
 }
 .contact-sub-topic{
   font-family: Roboto;
-  font-size: 18px;
+  font-size: 18px; /* Below LET"S GET IN TOUCH - description */
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -382,7 +382,7 @@ body{
   color: #526e88;
 }
 .contact-detail-side{
-  width: 366px;
+  width: 366px; /* We can help bottom-right */
   height: 554px;
   /* margin: 0 0 0 162px; */
   padding: 73px 40px 74px;
@@ -393,7 +393,7 @@ body{
 }
 .contact-details-topic{
   font-family: Roboto;
-  font-size: 24px;
+  font-size: 24px; /* We can help bottom-right : text headding */
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -404,7 +404,7 @@ body{
 }
 .contact-details-text{
   font-family: Roboto;
-  font-size: 14px;
+  font-size: 14px; /* We can help bottom-right : text description */
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -416,7 +416,7 @@ body{
 }
 .contact-details-sub-topic{
   font-family: Roboto;
-  font-size: 18px;
+  font-size: 18px; /* We can help bottom-right : cesond heading */
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -427,7 +427,7 @@ body{
 }
 .contact-label{
   font-family: Roboto;
-  font-size: 16px;
+  font-size: 16px; /* We can help bottom-left :  details collextion headings */
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -439,13 +439,14 @@ body{
 input {
   outline: 0;
   border-width: 0 0 2px;
-  border-color: #c5cee0;
+  border-color: #c5cee0; /* We can help bottom-left :  details collection line color */
+  font-weight: bold;
   width: 78%;
 }
 textarea{
   outline: 0;
   border-width: 0 0 2px;
-  border-color: #c5cee0;
+  border-color: #c5cee0; /* We can help bottom-left :  details collection third line color */
   width: 78%;
 }
 input:focus, textarea:focus {
@@ -453,7 +454,7 @@ input:focus, textarea:focus {
 }
 .contact-send-btn{
   width: 128px;
-  height: 40px;
+  height: 40px; /* We can help bottom-left :  send now button design */
   color: white;
   border-radius: 1px;
   background-color: #ffac07;
@@ -466,7 +467,7 @@ input:focus, textarea:focus {
   height: 88px;
 }
 .footer-text{
-  font-family: Roboto;
+  font-family: Roboto; /* Footer : copyright line design*/
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -478,7 +479,7 @@ input:focus, textarea:focus {
   vertical-align: baseline;
 }
 .custom-width{
-  max-width: 130px;
+  max-width: 100px;
 }
 /* .section-padding{
   height: 700px;
@@ -551,7 +552,7 @@ input:focus, textarea:focus {
     width: 103px;
   }
   .underline-service::before{
-    width: 86px;
+    width: 80px;
   }
   .underline-gallery::before{
     width: 50px;
@@ -869,5 +870,99 @@ input:focus, textarea:focus {
   .footer-text{
     font-size: 13px;
   }
+
+  .carousel-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+}
+
+.carousel-item img.custom-width {
+    width: 100px;
+    height: auto;
+}
+
+.why-choose-us {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #2C3E50;
+}
+
+.why-choose-us-description {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #555555; /* Slightly muted grey for paragraph text */
+}
+
+
+.video-tile {
+  position: relative;
+  cursor: pointer;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+.video-tile:hover {
+  transform: scale(1.03);
+}
+
+.video-thumbnail {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.video-wrapper iframe {
+  border-radius: 10px;
+}
+
+/* testimonials*/
+
+.testimonials-section {
+  margin: 50px 0;
+  padding: 0 20px;
+}
+
+.testimonial-tile {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-tile:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.video-thumbnail {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.video-title {
+  text-align: center;
+  margin: 10px 0;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* Swiper customizations (optional) */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #333;
+}
+
+.swiper-pagination-bullet {
+  background: #333;
+}
+
+
 }
 

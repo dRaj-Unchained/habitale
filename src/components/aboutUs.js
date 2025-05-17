@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import img from '../images/about.png'
+import image_1 from './../images/image_1.jpeg';
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 import AOS from 'aos';
@@ -44,7 +45,7 @@ export default class AboutUs extends React.Component {
 
                     </div>
                     <div className="col-sm-6 col-md-6 mt-lg-5">
-                        <img className="about-img about-img-tab" src={img} alt="about-us-img"></img>
+                        <img className="about-img about-img-tab" src={image_1} alt="about-us-img" style={{ width: '78%', height: '100%', objectFit: 'cover', maxHeight: '400px' }} ></img>
                     </div>
                 </div>
             </div >

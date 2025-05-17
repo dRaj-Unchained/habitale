@@ -1,6 +1,6 @@
-import hero from '../images/hero1.png';
-import hero2 from '../images/hero2.png';
-import hero3 from '../images/hero3.png';
+import hero1 from '../images/hero_1.jpeg';
+import hero2 from '../images/hero_2.jpeg';
+import hero3 from '../images/hero_3.jpeg';
 import { Link } from 'react-scroll';
 import Typist from 'react-typist';
 var React = require('react');
@@ -12,24 +12,24 @@ export default class DemoCarousel extends React.Component {
 
     render() {
         return (
-            <Carousel infiniteLoop={true} showStatus={false} showArrows={true} interval={3000} stopOnHover={false} showThumbs={false} autoPlay={true} showIndicators={false}>
+            <Carousel infiniteLoop={true} showStatus={false} showArrows={true} interval={3000} stopOnHover={true} showThumbs={false} autoPlay={true} showIndicators={false}>
                 <div>
                     <Typist loop={Infinity} avgTypingDelay={30} cursor={{ show: false }}>
-                        <img src={hero} className="img-height" alt="top-carousal" />
+                        <img src={hero1} className="img-height" alt="top-carousal" />
                         <div className="row">
                             <div className="col-sm-12">
-                                <p className="carousel-text line-one carousel-text-tab">TRANSFORM YOUR</p>
+                                <p className="carousel-text line-one carousel-text-tab"> Designing Spaces That </p>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-sm-12">
-                                <p className="carousel-text line-two carousel-text-tab">HOME INTO <span className="carousel-text ml-3 yellow-colour carousel-text-tab">LIVING</span></p>
+                                <p className="carousel-text line-two carousel-text-tab">Reflect <span className="carousel-text ml-3 carousel-text-tab"style={{ color:'#15d4c7'}}>Your Story</span></p>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-sm-12">
                                 {/* <Typist.Delay ms={500} /> */}
-                                <p className="carousel-sub-text">LET US BRING YOUR IDEAS TO LIFE !</p>
+                                <p className="carousel-sub-text"style={{ color:'#000000'}}>Let’s transform your house into a home you’ll love !</p>
                             </div>
                         </div>
                     </Typist>
@@ -43,24 +43,22 @@ export default class DemoCarousel extends React.Component {
                     </div>
                 </div>
                 <div>
-                    <img src={hero2} className="img-height" alt="top-carousal" />
-                    <Typist avgTypingDelay={30} cursor={{ show: false }}>
+                    <Typist loop={Infinity} avgTypingDelay={30} cursor={{ show: false }}>
+                        <img src={hero2} className="img-height" alt="top-carousal" />
                         <div className="row">
                             <div className="col-sm-12">
-                                {/* <Typist.Delay ms={2000} /> */}
-                                <p className="carousel-text line-one carousel-text-tab">CREATE SPACES</p>
+                                <p className="carousel-text line-one carousel-text-tab">CREATE SPACES </p>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-sm-12">
-                                {/* <Typist.Delay ms={2100} /> */}
-                                <p className="carousel-text line-two carousel-text-tab">FOR BETTER<span className="carousel-text ml-3 yellow-colour carousel-text-tab">LIVING</span></p>
+                                <p className="carousel-text line-two carousel-text-tab">FOR BETTER <span className="carousel-text ml-3 carousel-text-tab"style={{ color:'#15d4c7'}}>LIVING</span></p>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-sm-12">
-                                {/* <Typist.Delay ms={2300} /> */}
-                                <p className="carousel-sub-text">LET US BRING YOUR IDEAS TO LIFE !</p>
+                                {/* <Typist.Delay ms={500} /> */}
+                                <p className="carousel-sub-text"style={{ color:'#000000'}}>LET US BRING YOUR IDEAS TO LIFE !</p>
                             </div>
                         </div>
                     </Typist>
