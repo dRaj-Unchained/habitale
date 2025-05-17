@@ -6,6 +6,7 @@ import Services from '../components/services';
 import Portfolio from '../components/portfolio';
 import Testimonials from '../components/testimonials';
 import DesignCollection from '../components/DesignCollection';
+import Partners from './Partners';
 
 
 
@@ -31,16 +32,19 @@ export default class middleSection extends Component {
                 <div id="testimonials" className="section-padding-about">
                     <Testimonials></Testimonials>
                 </div>
-                <div id="design-collection" className="section-padding-about">
-                    <DesignCollection />
-                </div>
                 <div>
                     <Mission></Mission>
+                </div>
+
+                <div id="design-collection" className="section-padding-about">
+                    <DesignCollection />
+                </div>                
+                <div>
+                    <Partners></Partners>
                 </div>
                 <div id="contact">
                     <Contact></Contact>
                 </div>
-
             </>
         )
     }

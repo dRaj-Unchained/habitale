@@ -56,8 +56,8 @@ export default class Mission extends React.Component {
                     boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)' // Optional: Light shadow for a subtle effect
                 }}>
 
-                    <div className="row p-0 m-0">
-                        {/* Mission */}
+{/*                    <div className="row p-0 m-0">
+                        // Mission 
                         <div className="col-sm-4 mission-all-tab tab-black">
                             <div className="row m-xl-0">
                                 <div className="col-sm-12 ml-xl-1">
@@ -80,7 +80,7 @@ export default class Mission extends React.Component {
                             </div>
                         </div>
 
-                        {/* Vision */}
+                        // Vision 
                         <div className="col-sm-4 mission-all-tab tab-yellow">
                             <div className="row m-xl-0">
                                 <div className="col-sm-12 ml-xl-1">
@@ -103,7 +103,7 @@ export default class Mission extends React.Component {
                             </div>
                         </div>
 
-                        {/* Capacity */}
+                        // Capacity 
                         <div className="col-sm-4 mission-all-tab tab-black">
                             <div className="row m-xl-0">
                                 <div className="col-sm-12 ml-xl-1">
@@ -125,7 +125,7 @@ export default class Mission extends React.Component {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     {/* Why Choose Us Section */}
                         <div className="row">
